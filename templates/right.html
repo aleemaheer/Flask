@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block body %}
+Great you selected the right path and arrived in the jungle.<br>
+Now you have to choose the another path.There is a river and a home.<br>
+Where you want to go.Swim across the river or go the home.<br>
+<form action="/swim">
+    <input type="text" name="name2" placeholder="Write swim or go home">
+    <button>Enter</button>
+</form>
+{% endblock %}
